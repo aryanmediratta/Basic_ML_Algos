@@ -39,7 +39,7 @@ class Support_Vector_Machine:
                       self.max_feature_value * 0.001,
                       ]
         b_range_multiple = 5
-        #We do need need to take as small of steps with b as we do with w 
+        #We do not need to take as small of steps with b as we do with w 
         b_multiple = 5
 
         latest_optimum = self.max_feature_value*10
